@@ -10,8 +10,6 @@ var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var character = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 var confirmArray = [];
 var passwordChoice = [];
-// var passwordLength;
-// var password = "";
 
 // Write password to the #password input
 function writePassword() {
@@ -19,7 +17,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 function generatePassword() {
@@ -72,65 +69,3 @@ function generatePassword() {
   }
   return password.join("")
 }
-
-
-
-
-// function randomPassword(length) {
-//   var chars = console.log(passwordChoice);
-//   var pass = "";
-//   for (var x = 0; x < (console.log(passwordLength)); x++) {
-//       var i = Math.floor(Math.random() * chars.length);
-//       pass += chars.charAt(i);
-//   }
-//   return pass;
-//   console.log(randomPassword)
-// }
-
-// function generatePassword()
-// for (var i = 0; i < passwordLength; ++i) {
-//   var arrPosition = Math.Floor(Math.random() * passwordChoice)
-//   var charNum = Math.floor(Math.random() * passwordChoice[arrPosition].length);
-//   password += passwordChoice[arrPosition][charNum][Math.floor(Math.random() * passwordChoice[arrPosition].length)];
-//   char
-//   password.push(password)
-// console.log(password)
-//   // return password
-// }
-
-// for (var i = 0; i < confirmArray; ++i) {
-//   var whichArray = (Math.Floor(Math.random() * passwordChoice))
-//   password = password + passwordChoice[whichArray][Math.floor(Math.random() * passwordChoice[whichArray].length)];
-//   console.log("password")
-// }
-
-// var chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-//         var string_length = 8;
-//         var randomstring = '';
-//         for (var i=0; i<string_length; i++) {
-//             var rnum = Math.floor(Math.random() * chars.length);
-//             randomstring += chars.substring(rnum,rnum+1);
-//         }
-
-// function random_password_generate(max,min)
-// {
-//     var passwordChars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz#@!%&()/";
-//     var randPwLen = Math.floor(Math.random() * (max - min + 1)) + min;
-//     var randPassword = Array(randPwLen).fill(passwordChars).map(function(x) { return x[Math.floor(Math.random() * x.length)] }).join('');
-//     return randPassword;
-// }
-
-// return password;
-
-
-// varspecialchar + ["!",     ]
-// var special = confirm("DO you want special")
-// if (special) {
-//   holder.push(specialchar)
-// }
-
-// var password ""
-// var holder = []
-// var arrPosition = math.floor(math.random * holder.length)
-// var charNum = math.floor(math.random() * holder[arrPosition].length)
-// pass + = holder[arrPosition][charnum]
